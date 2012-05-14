@@ -57,7 +57,7 @@ class SearchData
 // ###- color defines -###
 // foreground
 #define BLACK         "\033[0;30m"
-#define RED           "\033[0;31m"                
+#define RED           "\033[0;31m"
 #define GREEN         "\033[0;32m"
 #define YELLOW        "\033[0;33m"
 #define BLUE          "\033[0;34m"
@@ -73,8 +73,64 @@ class SearchData
 #define BRIGHTCYAN    "\033[1;36m"
 #define BRIGHTWHITE   "\033[1;37m"
 
+
+
 // background
-// TODO: fix this
+#define BG_BLACK         "\033[0;40m"
+#define BG_RED           "\033[0;41m"
+#define BG_GREEN         "\033[0;42m"
+#define BG_YELLOW        "\033[0;43m"
+#define BG_BLUE          "\033[0;44m"
+#define BG_MAGENTA       "\033[0;45m"
+#define BG_CYAN          "\033[0;46m"
+#define BG_WHITE         "\033[0;47m"
+#define BG_BRIGHTBLACK   "\033[1;40m"
+#define BG_BRIGHTRED     "\033[1;41m"
+#define BG_BRIGHTGREEN   "\033[1;42m"
+#define BG_BRIGHTYELLOW  "\033[1;43m"
+#define BG_BRIGHTBLUE    "\033[1;44m"
+#define BG_BRIGHTMAGENTA "\033[1;45m"
+#define BG_BRIGHTCYAN    "\033[1;46m"
+#define BG_BRIGHTWHITE   "\033[1;47m"
+
+
+// underline
+#define UL_BLACK         "\033[4;30m"
+#define UL_RED           "\033[4;31m"
+#define UL_GREEN         "\033[4;32m"
+#define UL_YELLOW        "\033[4;33m"
+#define UL_BLUE          "\033[4;34m"
+#define UL_MAGENTA       "\033[4;35m"
+#define UL_CYAN          "\033[4;36m"
+#define UL_WHITE         "\033[4;37m"
+#define UL_BRIGHTBLACK   "\033[1;30m"
+#define UL_BRIGHTRED     "\033[1;31m"
+#define UL_BRIGHTGREEN   "\033[1;32m"
+#define UL_BRIGHTYELLOW  "\033[1;33m"
+#define UL_BRIGHTBLUE    "\033[1;34m"
+#define UL_BRIGHTMAGENTA "\033[1;35m"
+#define UL_BRIGHTCYAN    "\033[1;36m"
+#define UL_BRIGHTWHITE   "\033[1;37m"
+
+
+// blinking 
+#define BLINK_BLACK         "\033[5m;30m"
+#define BLINK_RED           "\033[5m;31m"
+#define BLINK_GREEN         "\033[5m;32m"
+#define BLINK_YELLOW        "\033[5m;33m"
+#define BLINK_BLUE          "\033[5m;34m"
+#define BLINK_MAGENTA       "\033[5m;35m"
+#define BLINK_CYAN          "\033[5m;36m"
+#define BLINK_WHITE         "\033[5m;37m"
+#define BLINK_BRIGHTBLACK   "\033[1;30m"
+#define BLINK_BRIGHTRED     "\033[1;31m"
+#define BLINK_BRIGHTGREEN   "\033[1;32m"
+#define BLINK_BRIGHTYELLOW  "\033[1;33m"
+#define BLINK_BRIGHTBLUE    "\033[1;34m"
+#define BLINK_BRIGHTMAGENTA "\033[1;35m"
+#define BLINK_BRIGHTCYAN    "\033[1;36m"
+#define BLINK_BRIGHTWHITE   "\033[1;37m"
+
 
 #define MAX_CFG_LINE_LENGTH 200
 
